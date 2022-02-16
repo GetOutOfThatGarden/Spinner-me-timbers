@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.emoji {
+  font-size: 10rem;
+  cursor: pointer;
+  user-select: none;
+  display: none;
+}
+
+.on {
+  display: inline-block;
+}
+
+.ninety {
+  transform: rotate(90deg);
+}
+
+.oneEighty {
+  transform: rotate(180deg);
+}
+
+.twoSeventy {
+  transform: rotate(270deg);
+}
