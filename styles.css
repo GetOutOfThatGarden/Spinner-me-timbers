@@ -16,10 +16,26 @@ body {
   font-size: 10rem;
   cursor: pointer;
   user-select: none;
-  display: none;
+/*   display: none; */
+ pointer-events: auto;
+
 }
 
-.on {
+.emoji.rotate{
+  animation: rotate-arrow 1s ease-in-out forwards;
+  pointer-events: none;
+}
+
+@keyframes rotate-arrow {
+            from{
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+/* .on {
   display: inline-block;
 }
 
@@ -33,4 +49,4 @@ body {
 
 .twoSeventy {
   transform: rotate(270deg);
-}
+} */
