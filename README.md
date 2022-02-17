@@ -58,3 +58,5 @@ Each one is listening out for a click on a specific div.
 Technically, the user is not rotating the arrows. What is really happening is that whenever the current div is clicked, it disappears and the next, rotated element is displayed. Keep clicking until the div goes back to it's original (straight) position.
 
 This has been a fun project. Looking forward to the next one.
+
+TEST
